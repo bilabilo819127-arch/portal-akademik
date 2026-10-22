@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Praktik CSS Dasar</title>
+    <link rel="stylesheet" href="CSS/style.css"> 
+</head>
+<body>
+
+    <header>
+        <div class="container header-wrapper">
+            <div class="logo">PraktikWeb</div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#layanan">Layanan</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container hero-content">
+            <h1>Belajar Selector & Styling CSS</h1>
+            <p>Selamat datang di halaman praktik pembuatan website statis menggunakan HTML dan CSS dasar.</p>
+            <a href="#layanan" class="btn">Mulai Belajar</a>
+        </div>
+    </section>
+
+    <section id="layanan">
+        <div class="container">
+            <h2 class="section-title">Layanan Kami</h2>
+            <div class="grid-layanan">
+                <div class="kartu-layanan">
+                    <h3>HTML5 Dasar</h3>
+                    <p>Memahami struktur dasar halaman web, penggunaan tag semantik, dan penyusunan elemen teks serta media.</p>
+                </div>
+                <div class="kartu-layanan">
+                    <h3>CSS3 Styling</h3>
+                    <p>Menguasai berbagai jenis selector, manajemen warna, tipografi, pengaturan border, radius, dan box model.</p>
+                </div>
+                <div class="kartu-layanan">
+                    <h3>Responsive Design</h3>
+                    <p>Mengatur layout agar halaman website dapat tampil rapi dan proporsional saat diakses melalui smartphone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang">
+        <div class="container tentang-wrapper">
+            <div class="tentang-teks">
+                <h2>Tentang Website Ini</h2>
+                <p>Website ini dikembangkan sebagai proyek studi kasus nyata untuk menerapkan teori-teori CSS yang telah dipelajari dalam modul akademik.</p>
+                <p>Melalui halaman ini, seluruh komponen mulai dari pengaturan navigasi horizontal, efek interaksi tombol, hingga form input diimplementasikan secara langsung menggunakan stylesheet eksternal.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <div class="form-wrapper">
+                <form action="#">
+                    <div class="form-grup">
+                        <label for="nama">Nama Lengkap</label>
+                        <input type="text" id="nama" placeholder="Masukkan nama Anda...">
+                    </div>
+                    <div class="form-grup">
+                        <label for="email">Alamat Email</label>
+                        <input type="email" id="email" placeholder="Masukkan email Anda...">
+                    </div>
+                    <div class="form-grup">
+                        <label for="pesan">Pesan</label>
+                        <textarea id="pesan" rows="5" placeholder="Tuliskan pesan Anda di sini..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-kirim">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 PraktikWeb. Seluruh Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
